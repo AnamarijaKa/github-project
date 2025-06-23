@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Vodič</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2rem;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1, h2, h3 {
+      color: #0366d6;
+    }
+    code {
+      background: #eee;
+      padding: 2px 4px;
+      border-radius: 4px;
+    }
+    pre {
+      background: #eee;
+      padding: 10px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    blockquote {
+      border-left: 4px solid #ccc;
+      padding-left: 10px;
+      color: #555;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 1rem;
+    }
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+    th, td {
+      padding: 8px;
+      text-align: left;
+    }
+    ul, ol {
+      margin-bottom: 1rem;
+    }
+    a {
+      color: #0366d6;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>GitHub Vodič</h1>
+
+  <h2>Kreiranje i upravljanje granama (branches)</h2>
+  <p>Grane vam omogućuju paralelni razvoj bez utjecaja na <strong>glavnu granu</strong>.</p>
+  <pre><code>git checkout -b naziv-grane
+</code></pre>
+
+  <h2>Kreiranje i pregled Pull Request-ova (PR)</h2>
+  <ol>
+    <li>Pushajte promjene: <code>git push origin naziv-grane</code></li>
+    <li>Kreirajte PR putem GitHub sučelja</li>
+    <li>Dodajte opis, recenzente i kliknite "Create pull request"</li>
+  </ol>
+
+  <h2>Korištenje Issues za praćenje zadataka i komentara</h2>
+  <p><em>Issues</em> služe za bugove, prijedloge i rasprave.</p>
+  <ul>
+    <li>Kreirajte novi issue</li>
+    <li>Dodajte naslov, opis, label i assignee</li>
+    <li>PR može zatvoriti issue automatski: <code>Closes #1</code></li>
+  </ul>
+
+  <h2>Korištenje Wiki stranica</h2>
+  <p>Wiki služi za dokumentaciju i dodatne informacije. Koristi <em>Markdown</em> za uređivanje.</p>
+
+  <h3> Linkovi</h3>
+  <ul>
+    <li><a href="https://docs.github.com/en/pull-requests">Pull Requests</a></li>
+    <li><a href="https://docs.github.com/en/issues">GitHub Issues</a></li>
+    <li><a href="https://docs.github.com/en/communities/documenting-your-project-with-wikis">Wiki Dokumentacija</a></li>
+  </ul>
+
+  <h3>Slika</h3>
+  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub logo" width="100">
+
+  <h3>Tablica</h3>
+  <table>
+    <tr>
+      <th>Funkcija</th>
+      <th>Opis</th>
+      <th>Lokacija</th>
+    </tr>
+    <tr>
+      <td>Branch</td>
+      <td>Paralelni razvoj</td>
+      <td>Code</td>
+    </tr>
+    <tr>
+      <td>Pull Request</td>
+      <td>Spajanje koda</td>
+      <td>Pull Requests</td>
+    </tr>
+    <tr>
+      <td>Issue</td>
+      <td>Praćenje bugova i ideja</td>
+      <td>Issues</td>
+    </tr>
+  </table>
+
+  <h3>Blok citat</h3>
+  <blockquote>
+    "Povijest se ne ponavlja, ali se rimuje." — Mark Twain
+  </blockquote>
+</body>
+</html>
